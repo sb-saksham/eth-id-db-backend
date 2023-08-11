@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Incentaving</title>
+    <style>
+        .footer{
+            margin-left:45px;
+        }
+        hr{
+            margin-top:30px;
+        }
+        body{
+            background-color:#EDEEF0;
+            align:center;
+            font-family: Bookman Old Style;
+        }
+        .lead{
+            font-weight:bolder;
+        }
+    </style>
+</head>
+<body>
+    <div align="center">
+        <h2 style="margin-top:30px;">Hello {{ firstname }}</h2>
+        <h1 class="lead">Thanks for joining us!</h1>
+        <h2>Here is your activation link:</h2>
+        <h1><a href="{{ path }}">{{ path }}</a></h1>
+        <h3>You can login via this link.</h3>
+        <div class="footer" align="left">
+           <h3>Regards,<br>Team Incentaving.com</h3>
+        </div>
+    </div>
+</body>
+</html>

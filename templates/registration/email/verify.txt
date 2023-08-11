@@ -1,0 +1,11 @@
+Hello {{ firstname }},
+
+Complete your verification process by clicking on the link below!
+Here is your activation link:
+
+{{ path }}
+
+You can login via this link.
+
+Thank You!
+Team Incentaving.com
